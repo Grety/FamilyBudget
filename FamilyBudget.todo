@@ -1,0 +1,21 @@
+{TODO -cfunctionality : Remember selected when in budgtView and expand & select it again when changing active report in that window}
+{DONE -cBUG : Make UNION sql for BudgetOperations so that transfer operation could be distinguished}
+{DONE -cBUG : When choosing budget form latest report is selected but today's day is calculated for the first report in DB}
+{DONE -cfunctionality : When editing operation "OK" btn should be default, when inserting - "Add"
+More over fix Add error when editing}
+{DONE -cfunctionality : Write fixer for operation balance}
+{TODO -cfunctionality : if Goods default ExpenseItem is changed update all childs having the same old DefaultExpenseItem}
+{DONE -cBUG : Find out why double click doesn't always work on popups}
+{DONE -cfunctionality : Transfer operations should impact budget too. Budget operations should show transfers}
+{DONE -cBUG : Fix operation OK button - PK violation}
+{TODO -cfunctionality : Operation order by field Oper_Order}
+{TODO -cOptimization : Account page is opening slowly because of heavy connection with reports and operations}
+{DONE -cBUG : Operations are not calculated in budget but are displayed in list for the article}
+{DONE -cfunctionality : Account balance, report plan balance and report cash balance on Budget's page}
+{DONE -cBUG : Fix Add operation button. PK violation}
+{DONE -cfunctionality : Remember popup size after closing. Store in TStringList ComponentName=W;H}
+{DONE -cfunctionality : HID automatic fixer}
+{TODO -cfunctionality :
+Parameters : SelectLanguage for base
+Parameters : switch to ru ua kbd when entering fields}
+ 
